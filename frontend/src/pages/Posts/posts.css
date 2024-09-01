@@ -1,0 +1,8 @@
+.main-container{
+  display: flex;
+  flex-direction: row;
+ 
+  flex-wrap: nowrap;
+  gap: 5rem;
+  padding: 5rem 5rem 5rem 5rem;
+}

@@ -1,0 +1,106 @@
+.front-container{
+  display: flex;
+  position: relative;
+  gap:0;
+  padding: 0;
+  top:4rem;
+  overflow: hidden;
+}
+.profile-container-left{
+  display: flex;
+  flex-direction: column;
+  border-right:#FFD8E4 solid 3px;
+  max-width:70%;
+  
+  flex-grow: 4;
+}
+.profile-container-right{
+  border-bottom:#FFD8E4 solid 1px;
+
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  flex-grow: 1;
+}
+.profile-container-right > .bottom{
+  flex-grow: 6;
+  gap: 5px;
+}
+.profile-container-right > .top{
+  flex-grow:5;
+  align-items: center;
+  margin-top: 1rem;
+}
+.box-small{
+  border-right: #FFD8E4 solid 2px;
+  width: 3rem;
+  flex-grow: 1;
+  text-align: center;
+}
+.profile-container-right > div{
+  border-bottom:#FFD8E4 solid 1px;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile-container-right > .bottom > div {
+
+  flex-grow: 1;
+  padding-left: 2rem;
+  align-items: center;
+  border-bottom:#FFD8E4 solid 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.contacts{
+  height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-grow: 1;
+  width: 80%;
+}
+.contacts > div{
+  flex-grow: 1;
+  text-align: center;
+  font-size: larger;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top > img{
+  flex-grow: 1;
+  height: 50px;
+  width: 160px;
+  border-radius: 50%;
+  
+}
+.profile-container-left > .top{
+  border-bottom:#FFD8E4 solid 1px;
+  flex-grow: 1;
+}
+.profile-container-left > .bottom{
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  max-height: 70%;
+  gap: 20px;
+  overflow: scroll;
+  align-items: center;
+}
+.profile-container-left > .top{
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  
+  gap: 20px;
+  overflow: scroll;
+  align-items: center;
+}
+
+.post-floater{
+  border: 2px solid black;
+  padding:2rem;
+  display:contents;
+}
